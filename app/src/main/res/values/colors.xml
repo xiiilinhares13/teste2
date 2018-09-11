@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#150c28</color>
+    <color name="colorPrimaryDark">#222954</color>
+    <color name="colorAccent">#ae635f12</color>
+    <color name="colorAjustes">#ef324cf4</color>
+    <color name="Notificacao">#ef000000</color>
+    <color name="Transparent">#00ff4081</color>
+    <color name="black">#bd000000</color>
+    <color name="grey_300">#EFF5F6FF</color>
+    <color name="ms">#e4e8f1</color>
+    <color name="btn">#6eb35b</color>
+    <color name="btn_novo">#3d619f</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

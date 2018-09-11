@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "596348055992",
+    "firebase_url": "https://spcapp-e96c1.firebaseio.com",
+    "project_id": "spcapp-e96c1",
+    "storage_bucket": "spcapp-e96c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596348055992:android:61d8b656f0c58929",
+        "android_client_info": {
+          "package_name": "com.gswaugustom.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596348055992-87h79uo2l6535ls3tfi2pq76k2he0vmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gswaugustom.login",
+            "certificate_hash": "36f490f7bf19b7e7248569190022d41d0f19c833"
+          }
+        },
+        {
+          "client_id": "596348055992-16m14l9ga75hv9gm4jig5b34vs9aqjaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gswaugustom.login",
+            "certificate_hash": "71035561c8a0b40a97bf6e6f38c624cbf8949255"
+          }
+        },
+        {
+          "client_id": "596348055992-4n8ojh21rnr8qf8j1a1rnga2c9qnrj6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEvNkB9vIuL3AmBrdsQ6h41Hda0-pSDCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596348055992-4n8ojh21rnr8qf8j1a1rnga2c9qnrj6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

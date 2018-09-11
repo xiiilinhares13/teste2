@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.microsservicosFragment">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@drawable/igmajustes"
+        android:orientation="horizontal"
+        />
+
+
+    <RelativeLayout
+
+        android:id="@+id/relativeserch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+
+        >
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="141dp"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+           >
+
+
+            <ImageButton
+                android:id="@+id/btn_cpf"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/cpf2" />
+
+
+            <ImageButton
+                android:id="@+id/btn_scorenegativo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/socorenegativo2" />
+
+
+            <ImageButton
+                android:id="@+id/btn_geolocalizacao"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/btn_cpf"
+                android:background="@drawable/geolocalizacao2" />
+
+            <ImageButton
+                android:id="@+id/btn_plotagem"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/btn_scorenegativo"
+                android:background="@drawable/plotagem2" />
+
+            <ImageButton
+                android:id="@+id/btn_biometria"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/btn_geolocalizacao"
+                android:background="@drawable/biometria2" />
+
+            <ImageButton
+                android:id="@+id/btn_segmentacao"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/btn_plotagem"
+                android:background="@drawable/segmentacao2" />
+            <ImageButton
+                android:id="@+id/btn_consulta_cnpj"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/btn_biometria"
+                android:background="@drawable/consultacnpj"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

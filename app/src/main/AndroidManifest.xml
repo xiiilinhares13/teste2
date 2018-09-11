@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gswaugustom.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".actitivitys.SplashScreenActivity"
+            android:theme="@style/AppCompat.TelaCheia">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".actitivitys.Main_Login_Activity" />
+        <activity android:name=".actitivitys.Main_Cadastro_Activity" />
+        <activity android:name=".actitivitys.Main_BemVindo_Activity" />
+        <activity android:name=".actitivitys.micro_services_Activity" />
+        <activity android:name=".actitivitys.Main_Vamos_Comecar_Activity" />
+        <activity
+            android:name=".actitivitys.Main_Home_Activity"
+            android:label="@string/title_activity_main__home_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".actitivitys.Main_Play_Activity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".actitivitys.Main_Avaliacao_Activity" />
+        <activity android:name=".actitivitys.Main_MeuPrimeiro_Servico_Activity" />
+        <activity android:name=".actitivitys.Main_MicrosServiceDetalhe_Activity" />
+        <activity android:name=".actitivitys.Main_Cofirmacao_Token_Activity" />
+        <activity android:name=".actitivitys.Main_Falar_Time_Activity" />
+        <activity android:name=".actitivitys.Main_Estatistica_Activity" />
+        <activity android:name=".actitivitys.Main_Documentacao_Activity" />
+        <!-- <activity android:name=".tab.Main_Chat_Activity" /> -->
+        <activity android:name=".actitivitys.Main_chat_Activity" />
+        <activity android:name=".actitivitys.Main_chat_login_Activity" />
+        <activity android:name=".actitivitys.Main_chat_register_Activity" />
+        <activity android:name=".actitivitys.Main_chat_user_Activity" />
+        <activity
+            android:name=".tab.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".actitivitys.Main_Consulta_Cnpj_Activity"></activity>
+    </application>
+
+</manifest>

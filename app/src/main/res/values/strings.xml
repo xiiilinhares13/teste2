@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">SPCapp</string>
+    <string name="cadastre_se">Cadastre se</string>
+    <string name="nao_possui_uma_conta">Não possui uma conta?</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="nome">Nome</string>
+    <string name="confirme">Confirme senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="Login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="esqueceu_a_senha">Esqueceu a senha?</string>
+    <string name="clique_aqui">Clique aqui</string>
+    <string name="data_de_nascimento">Data de Nascimento</string>
+    <string name="cpf">CPF</string>
+    <string name="login">Login</string>
+    <string name="bem_vindo">Bem-Vindo</string>
+    <string name="texto1">Este aplicativo é sua ferramenta de interação com a nova arquitetura de tecnologia do SPC Brasil.</string>
+    <string name="underline">_______</string>
+    <string name="microsservi_o">MICROSSERVIÇO</string>
+    <string name="texto2">Guia completo dos microsserviços do SPC Brasil. Aqui você pode buscar e consultar microssevicos,ver informações de utilização e tirar dúvidas com os responsáveis</string>
+    <string name="todo">TODO</string>
+    <string name="vamos_come_ar">Vamos Começar?</string>
+    <string name="texto3">Aproveite e veja o vídeo para conhecer a nova arquitetura, boas práticas e soluções disponíveis.</string>
+    <string name="enviar_nova_senhar">Redefinir Senha</string>
+    <string name="title_activity_main__home_">Olá Bem Vindo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="nossa_arquitetura">Nossa Arquitetura</string>
+    <string name="texto4">Conheça abaixo nova Arquitetura de Tecnologia do SPC Brasil.</string>
+    <string name="play">Play</string>
+
+    //facebookStrings
+    <string name="facebook_app_id">257671994821270</string>
+    <string name="fb_login_protocol_scheme">fb257671994821270</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inicio">inicio</string>
+    <string name="conteudo">conteúdo</string>
+    <string name="microsservico">microsserviço</string>
+    <string name="ranking">Ranking</string>
+    <string name="microsservicos">microsserviços</string>
+    <string name="configuracao">Ajustes</string>
+    <string name="receber_notificao">Receber Notificação</string>
+    <string name="alterar_senha">Alterar Senha</string>
+    <string name="meus_dados">Meus Dados</string>
+    <string name="sobre_o_aplicativo">Sobre o Aplicativo</string>
+
+    <string name="title_activity_main__primeiro_microsservice_">
+        Main_Primeiro_microsservice_Activity
+    </string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="texto5">Veja abaixo quais são as etapas para a criação de um microsserviço.</string>
+    <string name="consulta_cpf">Consulta CPF</string>
+    <string name="score_negativo">Score Negativo</string>
+    <string name="geolocalizacao">Geolocalização</string>
+    <string name="biometria">Biometria</string>
+    <string name="plotagem_reversa">Plotagem Reversa</string>
+    <string name="segmentacao">Segmentação</string>
+    <string name="txt">Conheça toda o processo para elaboração de microsserviço,desde interação de negócio ate boas práticas</string>
+    <string name="title_activity_tab_">tab_Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="consumidores">Consumidores</string>
+    <string name="microsservi_os">Microsserviços</string>
+    <string name="email">email</string>
+    <string name="base_url">base</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="digite_seu_cpf_aqui">Digite Seu Cpf aqui.</string>
+    <string name="consultar">consultar</string>
+    <string name="consulte_seu_cpf_aqui">Consulte seu Cpf aqui.</string>
+    <string name="consulte_seu_cnpj">Consulte seu Cnpj aqui.</string>
+
+
+</resources>

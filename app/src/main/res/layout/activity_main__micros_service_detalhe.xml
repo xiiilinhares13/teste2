@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actitivitys.Main_MicrosServiceDetalhe_Activity">
+
+    <RelativeLayout
+        android:id="@+id/relativeGeral"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/ms">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="GERAL"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeCard1"
+        android:layout_width="wrap_content"
+        android:layout_height="177dp"
+        android:layout_below="@+id/relativeGeral"
+        android:background="@drawable/msinicial">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Descricao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/relativeCard1"
+        android:background="@color/ms">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="DESCRIÇÃO"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mstexto"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Descricao"
+        android:background="@drawable/mstexto">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/relative_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mstexto"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edit_cpf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/consulte_seu_cpf_aqui"
+            android:inputType="numberSigned"/>
+
+        <Button
+            android:id="@+id/btn_consulta_cpf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_custom"
+            android:text="@string/consultar"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_cpf">
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="200dp">
+
+
+            <ImageButton
+                android:id="@+id/btn_solicitarUso"
+                android:layout_width="100dp"
+                android:layout_height="92dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="46dp"
+                android:layout_marginStart="46dp"
+                android:background="@drawable/solicitarusocard" />
+
+            <ImageButton
+                android:id="@+id/btn_falarcomTime"
+                android:layout_width="100dp"
+                android:layout_height="92dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="46dp"
+                android:background="@drawable/falarcomtimecard"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="46dp" />
+
+            <ImageButton
+                android:id="@+id/btn_estatisticacard"
+                android:layout_width="100dp"
+                android:layout_height="92dp"
+                android:layout_alignLeft="@+id/btn_solicitarUso"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/btn_solicitarUso"
+                android:background="@drawable/estatisticacard" />
+
+            <ImageButton
+                android:id="@+id/btn_documentacaocard"
+                android:layout_width="100dp"
+                android:layout_height="92dp"
+                android:layout_alignLeft="@+id/btn_falarcomTime"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/btn_falarcomTime"
+                android:background="@drawable/documentacaocard" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
